@@ -1,0 +1,51 @@
+.bestSolution{
+    width: 100%;
+    min-height: 750px;
+    background-image: url(https://preview.colorlib.com/theme/itlock/assets/img/hero/h1_hero1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__container{
+    width: 70%;
+    min-height: 750px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        &__content{
+            display: flex;
+            flex-direction: column;
+            width: 550px;
+            gap: 40px;
+            &__title{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                h1{
+                    font-size: 72px;
+                    color: white;
+                }
+                p{
+                    font-size: 19px;
+                    font-weight: 500;
+                    color: white;
+                }
+            }
+            &__btn{
+                button{
+                    width: 188px;
+                    height:60px ;
+                    background-color: transparent;
+                    border: 2px solid white;
+                    font-size: 20px;
+                    color: white;
+                    cursor: pointer;
+                    transition: 300ms;
+                    &:hover{
+                        background-color: rgb(176, 36, 219);
+                        color: white;
+                        border: 2px solid rgb(176, 36, 219);
+                    }
+                }
+            }
+        }
+    }
+}

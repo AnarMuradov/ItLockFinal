@@ -1,0 +1,30 @@
+
+.detail {
+    width: 100%;
+    min-height: 750px;
+    &__container {
+      width: 80%;
+      min-height: 750px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+&__card {
+    display: grid;
+    gap: 10px;
+    &__content {
+      display: grid;
+      gap: 10px;
+      &__title {
+        font-size: 24px;
+        font-weight: 500;
+        color: #003072;
+      }
+      &__text {
+        font-size: 16px;
+        color: #4c526e;
+      }
+    }
+  }}}

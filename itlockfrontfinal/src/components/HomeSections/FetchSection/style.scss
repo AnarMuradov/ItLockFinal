@@ -1,0 +1,55 @@
+.fetchSection {
+  width: 100%;
+  min-height: 750px;
+  &__container {
+    width: 80%;
+    min-height: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    &__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      span {
+        font-size: 14px;
+        color: #316ec2;
+      }
+      h2 {
+        font-size: 38px;
+        color: #003072;
+      }
+    }
+    &__allCard {
+      display: grid;
+      align-items: center;
+      width: 100%;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      justify-items: center;
+      img{
+        width: 400px;
+      }
+      &__card {
+        display: grid;
+        gap: 10px;
+        &__content {
+          display: grid;
+          gap: 10px;
+          &__title {
+            font-size: 24px;
+            font-weight: 500;
+            color: #003072;
+          }
+          &__text {
+            font-size: 16px;
+            color: #4c526e;
+          }
+        }
+      }
+    }
+  }
+}
